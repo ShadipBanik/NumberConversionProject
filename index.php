@@ -3,67 +3,54 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/deci_to_bin.js"></script>
-    <script src="../js/deci_to_hex.js"></script>
-    <script src="../js/deci_to_oct.js"></script>
-    <script src="../js/BinToDec.js"></script>
-    <script src="../js/BinToOct.js"></script>
-    <script src="../js/Bin_TO_Hex.js"></script>
-    <script src="../js/Oct_To_Deci.js"></script>
-    <script src="../js/Oct_To_Bin.js"></script>
-    <script src="../js/Oct_To_Hex.js"></script>
-    <script src="../js/Hex_To_dec.js"></script>
-    <script src="../js/Hex_To_Bin.js"></script>
-    <script src="../js/Hex_To_Oct.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/deci_to_bin.js"></script>
+    <script src="js/deci_to_hex.js"></script>
+    <script src="js/deci_to_oct.js"></script>
+    <script src="js/BinToDec.js"></script>
+    <script src="js/BinToOct.js"></script>
+    <script src="js/Bin_TO_Hex.js"></script>
+    <script src="js/Oct_To_Deci.js"></script>
+    <script src="js/Oct_To_Bin.js"></script>
+    <script src="js/Oct_To_Hex.js"></script>
+    <script src="js/Hex_To_dec.js"></script>
+    <script src="js/Hex_To_Bin.js"></script>
+    <script src="js/Hex_To_Oct.js"></script>
+    <script src="js/convert.js"></script>
   </head>
   <body>
       <div class="center">
-         <h1>
-              Enter Decimal number to convert, select Base and click CONVERT.
-         </h1>
-         <input class=""type="text" id="emo" style="height: 42px;width: 205px;" ></input>
-         <input class="button"type="button" onclick="deciToBinary()"  value="decToBin"/>
-         <input class="button"type="button" onclick="deciToOctal()"  value="decToOct"/>
-         <input class="button"type="button" onclick="deciToHexa()"  value="decToHex"/>
-         <textarea name="name" id="res" rows="3" style="margin-bottom:-20px;" cols="30"></textarea>
-
-         <br>
-         <br>
-
-         <h1>
-              Enter Binary number to convert, select Base and click CONVERT.
-         </h1>
-         <input class=""type="text" id="binInput" style="height:42px;width: 205px;" ></input>
-         <input class="button"type="button" onclick="binToDec()"  value="binToDec"/>
-         <input class="button"type="button" onclick="binToOct()"  value="binToOct"/>
-         <input class="button"type="button" onclick="binToHex()"  value="binToHex"/>
-         <textarea name="name" id="out" rows="3" style="margin-bottom:-20px;" cols="30"></textarea>
-
-         <br>
-         <br>
-
-         <h1>
-              Enter Octal number to convert, select Base and click CONVERT.
-         </h1>
-         <input class=""type="text" id="octInput" style="height:42px;width: 205px;" ></input>
-         <input class="button"type="button" onclick="octToDec()"  value="octToDec"/>
-         <input class="button"type="button" onclick="octToBin()"  value="octToBin"/>
-         <input class="button"type="button" onclick="octToHex()"  value="octToHex"/>
-         <textarea name="name" id="Octout" rows="3" style="margin-bottom:-20px;" cols="30"></textarea>
-
-        <br>
-        <br>
-
         <h1>
-             Enter Hexadecimal number to convert, select Base and click CONVERT.
+             Enter Decimal number to convert, select Base and click CONVERT.
         </h1>
-        <input class=""type="text" id="hexInput" style="height:42px;width: 205px;" ></input>
-        <input class="button"type="button" onclick="hexToDec()"  value="hexToDec"/>
-        <input class="button"type="button" onclick="hexToBin()"  value="hexToBin"/>
-        <input class="button"type="button" onclick="hexToOct()"  value="hexToOct"/>
-        <textarea name="name" id="Hexout" rows="3" style="margin-bottom:-20px;" cols="30"></textarea>
+        <div class="content">
+          <div class="elmnt1">
+             <br><br>
 
+         <select id="selectid1" name="selectname">
+             <option value="decimal">Decimal</option>
+             <option value="binary">Binary</option>
+             <option value="octal">Octal</option>
+             <option value="hexadecimal">Hexadecimal</option>
+
+        </select><br>
+        <input class=""type="text" id="input" style="height: 42px;width: 205px" ></input>
+        </div>
+       <div class="elemnt2">
+         <br><br>
+         <select id="selectid2" name="selectname">
+             <option value="decimal">Decimal</option>
+             <option value="binary">Binary</option>
+             <option value="octal">Octal</option>
+             <option value="hexadecimal">Hexadecimal</option>
+
+        </select><br>
+        <textarea name="name" id="output" rows="3" style="margin-bottom:-20px;" cols="30"></textarea>
+        </div>
+
+        <input class="button" type="button" name=""onclick="convert()" value="CONVERT"/>
+
+       </div>
       </div>
 
 

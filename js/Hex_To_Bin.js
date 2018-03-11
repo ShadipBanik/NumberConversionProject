@@ -4,7 +4,7 @@
                 var  dec,i;
                 var  cnt;   /*for power index*/
                 var  dig;   /*to store digit*/
-                hex= document.getElementById('hexInput').value;
+                hex= document.getElementById('input').value;
                 cnt=0;
                 dec=0;
                 // Again convert decimal to binary;
@@ -52,6 +52,6 @@
                     result += bin[j];
                     }
 
-                    document.getElementById('Hexout').value=result;
+                    document.getElementById('output').value=result;
 
     }

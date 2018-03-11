@@ -1,5 +1,5 @@
 function octToHex(){
-            var bin = document.getElementById('octInput').value;
+            var bin = document.getElementById('input').value;
             var n;
             var rem;
             var pow=1;
@@ -50,6 +50,6 @@ function octToHex(){
                result += hex[j];
               }
 
-            document.getElementById('Octout').value=result;
+            document.getElementById('output').value=result;
 
         }

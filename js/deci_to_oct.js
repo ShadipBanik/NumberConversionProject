@@ -1,7 +1,7 @@
 function deciToOctal(){
            var result ="";
            var k = 0;
-           var nmb=document.getElementById('emo').value;
+           var nmb=document.getElementById('input').value;
             var i=0;
             var bin= new Array();
             var re;
@@ -15,5 +15,5 @@ function deciToOctal(){
             for( var j=bin.length-1;j>=0;j--){
                 result += bin[j];
             }
-            document.getElementById('res').value =result;
+            document.getElementById('output').value =result;
         }

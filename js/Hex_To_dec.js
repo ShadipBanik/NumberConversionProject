@@ -5,7 +5,7 @@ function hexToDec(){
   var  cnt;   /*for power index*/
   var  dig;   /*to store digit*/
 
-  hex= document.getElementById('hexInput').value;
+  hex= document.getElementById('input').value;
 
 
   cnt=0;
@@ -35,6 +35,6 @@ function hexToDec(){
       cnt++;
   }
 
-              document.getElementById('Hexout').value=dec;
+              document.getElementById('output').value=dec;
 
 }

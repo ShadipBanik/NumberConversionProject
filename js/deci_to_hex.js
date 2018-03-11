@@ -1,7 +1,7 @@
 function deciToHexa(){
              var result = "";
              var k = 0;
-             var nmb=document.getElementById('emo').value;
+             var nmb=document.getElementById('input').value;
              var i=0;
              var bin= new Array();
              var re;
@@ -38,5 +38,5 @@ function deciToHexa(){
                }
                 result += bin[j];
                }
-               document.getElementById('res').value =result;
+               document.getElementById('output').value =result;
 }

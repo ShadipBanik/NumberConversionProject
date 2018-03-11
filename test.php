@@ -45,8 +45,8 @@
 
  function Answer() {
 
-     if (document.getElementbyId ('selectid').value=="binary") {
-         this.value=this.value.toString(2);
+     if (document.getElementbyId ('selectid').value=="binary" && document.getElementbyId ('selectid').value=="Decimal") {
+         this.value=this.value.;
      }
      else if  (document.getElementbyId ('selectid').value=="octal") {
          this.value=this.value.toString(8);

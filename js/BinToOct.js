@@ -1,5 +1,5 @@
 function binToOct() {
-          var bin = document.getElementById('binInput').value;
+          var bin = document.getElementById('input').value;
           var n;
           var rem;
           var oct=0;
@@ -28,6 +28,6 @@ function binToOct() {
               result += oct[j];
           }
 
-          document.getElementById('out').value=result;
+          document.getElementById('output').value=result;
 
       }

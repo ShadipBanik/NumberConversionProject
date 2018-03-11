@@ -1,5 +1,5 @@
 function binToHex() {
-          var bin = document.getElementById('binInput').value;
+          var bin = document.getElementById('input').value;
           var n;
           var rem;
           var pow=1;
@@ -50,6 +50,6 @@ function binToHex() {
             }
              result += hex[j];
             }
-          document.getElementById('out').value=result;
+          document.getElementById('output').value=result;
 
       }

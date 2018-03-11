@@ -1,5 +1,5 @@
 function octToDec(){
-            var bin = document.getElementById('octInput').value;
+            var bin = document.getElementById('input').value;
             var n;
             var rem;
             var pow=1;
@@ -12,6 +12,6 @@ function octToDec(){
                   pow=pow*8;
             }
 
-            document.getElementById('Octout').value=dec;
+            document.getElementById('output').value=dec;
 
         }

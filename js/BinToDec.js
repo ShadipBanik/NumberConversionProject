@@ -1,5 +1,5 @@
 function binToDec() {
-          var bin = document.getElementById('binInput').value;
+          var bin = document.getElementById('input').value;
           var n;
           var rem;
           var pow=1;
@@ -12,6 +12,6 @@ function binToDec() {
                 pow=pow*2;
           }
 
-          document.getElementById('out').value=dec;
+          document.getElementById('output').value=dec;
 
       }
