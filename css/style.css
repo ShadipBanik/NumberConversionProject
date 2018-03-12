@@ -1,9 +1,20 @@
+
+ h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size:40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .center{
       margin: auto;
       width: 60%;
       background: #dce0d3;
       text-align: center;
-      border: 3px solid #73AD21;
+      border: 3px solid #46b8da;
       padding: 10px;
        }
 .content{
@@ -32,14 +43,45 @@
 
 
 }
-.button{
-      background-color: #4CAF50;
-      border-radius:7px;
-      color: white;
-      padding: 9px 4px;
+.inp {
+      height: 57px;
+      width: 279px;
       text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
+      font-size: 25px;
+      border: 1px solid #46b8da;
+      border-radius: 4px;
        }
+.output{
+      font-size: 25px;
+      text-align: center;
+      border: 1px solid #46b8da;
+      border-radius: 4px;
+       }
+.button{
+  color: #fff;
+   background-color: #5bc0de;
+   border-color: #46b8da;
+   display: inline-block;
+   padding: 15px 29px;
+   margin-bottom: 0;
+   font-size: 17px;
+   line-height: 1.42857143;
+   text-align: center;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   margin: 39px;
+       }
+ .select{
+   color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 10px;
+ }
